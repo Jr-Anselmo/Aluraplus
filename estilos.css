@@ -145,6 +145,70 @@ body {
     margin: 2em 0;
 }
 
+@media screen and (max-width: 1440px) {
+    body {
+        font-size: 1em;
+        text-align: center;
+
+    }
+
+    .container__titulo {
+        margin: 1em;
+    }
+
+    .container__botao {
+        margin: 0 1em;
+    }
+
+    .container__imagem {
+        width: 22em;
+        margin: 0 2em;
+        margin: 1em;
+    }
+
+    .plataforma__imagem {
+        width: 22em;
+        margin: 0 2em;
+        margin-bottom: -15em;
+    }
+
+    .telas__imagem {
+        width: 22em;
+        margin: 0 2em;
+        margin-top: -20em;
+    }
+
+    .notebook__imagem {
+        width: 22em;
+        margin: 0 2em;
+        margin-bottom: -25em;
+    }
+
+    .rodape__logo {
+        margin: 1em 0;
+    }
+
+    .rodape__lista {
+        justify-self: center;
+    }
+
+    .dispositivos__lista {
+        display: block ;
+        justify-content: center;
+        margin: 0 0;
+    }
+    .plataforma {
+        margin: 1em 0;
+        align-items: center;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: none;
+        
+    }
+}
+
 
 
 
